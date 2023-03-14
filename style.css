@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+   background-color: black;
+  font-size: 20px;
+}
+body {
+  text-align: center;
+  color:antiquewhite;
+}
+h1 {
+  background-image: linear-gradient(to bottom right,  black, red, crimson, white);
+}
+
+h2 {
+   background-image: linear-gradient(to bottom right,  red, black, white);
+  color: antiquewhite;
+  text-align: center;
+}
+h3 {
+   background-image: linear-gradient(to bottom right,  black, red, black);
+  color: antiquewhite;
+  text-align: center;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 4px solid red;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid red;
+  margin: 0;
+  padding: 10px;
+}
+button {
+  background-color: black;
+   border: none;
+  padding: 10px 15px;
+  font-size: 2em;
+}
